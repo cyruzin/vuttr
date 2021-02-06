@@ -80,7 +80,7 @@ const Tools = () => {
     defaultValues: initialToolState,
   });
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: Omit<ToolsState, 'id'>) => {
     try {
       setError('');
 

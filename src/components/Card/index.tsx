@@ -21,9 +21,18 @@ const Card = (props: CardProps) => {
           justifyContent: 'space-between',
         }}
       >
-        <a style={{ fontSize: 20 }} href={link} target="_blank" rel="noreferrer">
-          <Typography type="header-5">{title}</Typography>
-        </a>{' '}
+        <a
+          style={{
+            fontSize: 24,
+            fontFamily: `'Source Sans Pro', sans-serif`,
+            textDecoration: 'none',
+          }}
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {title}
+        </a>
         <span style={{ cursor: 'pointer' }} onClick={() => onRemove(id)}>
           <strong>[remove]</strong>
         </span>
