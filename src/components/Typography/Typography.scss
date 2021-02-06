@@ -1,0 +1,82 @@
+@import '../../assets/_typography.scss';
+@import '../../assets/_mixins.scss';
+
+.header-1 {
+  @include fontMixin(
+    $header-1-font-family,
+    $header-1-font-size,
+    $header-1-color,
+    $header-1-letter-spacing,
+    $header-1-font-weight
+  );
+}
+
+.header-2 {
+  @include fontMixin(
+    $header-2-font-family,
+    $header-2-font-size,
+    $header-2-color,
+    $header-2-letter-spacing,
+    $header-2-font-weight
+  );
+}
+
+.header-3 {
+  @include fontMixin(
+    $header-3-font-family,
+    $header-3-font-size,
+    $header-3-color,
+    $header-3-letter-spacing,
+    $header-3-font-weight
+  );
+}
+
+.header-4 {
+  @include fontMixin(
+    $header-4-font-family,
+    $header-4-font-size,
+    $header-4-color,
+    $header-4-letter-spacing,
+    $header-4-font-weight
+  );
+}
+
+.header-5 {
+  @include fontMixin(
+    $header-5-font-family,
+    $header-5-font-size,
+    $header-5-color,
+    $header-5-letter-spacing,
+    $header-5-font-weight
+  );
+}
+
+.body {
+  @include fontMixin(
+    $body-font-family,
+    $body-font-size,
+    $body-color,
+    $body-letter-spacing,
+    $body-font-weight
+  );
+}
+
+.body-small {
+  @include fontMixin(
+    $body-small-font-family,
+    $body-small-font-size,
+    $body-small-color,
+    $body-small-letter-spacing,
+    $body-font-weight
+  );
+}
+
+.body-smallest {
+  @include fontMixin(
+    $body-smallest-font-family,
+    $body-smallest-font-size,
+    $body-smallest-color,
+    $body-smallest-letter-spacing,
+    $body-smallest-font-weight
+  );
+}

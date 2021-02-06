@@ -1,0 +1,60 @@
+@import './_fonts.scss';
+@import './_colors.scss';
+
+$font-family-source: 'Source Sans Pro', sans-serif;
+
+$header-1-font-family: $font-family-source;
+$header-1-font-size: 42px;
+$header-1-color: $black;
+$header-1-text-align: left;
+$header-1-letter-spacing: 0.84px;
+$header-1-font-weight: 600;
+
+$header-2-font-family: $font-family-source;
+$header-2-font-size: 36px;
+$header-2-color: $black;
+$header-2-text-align: left;
+$header-2-letter-spacing: 0.72px;
+$header-2-font-weight: 600;
+
+$header-3-font-family: $font-family-source;
+$header-3-font-size: 30px;
+$header-3-color: $black;
+$header-3-text-align: left;
+$header-3-letter-spacing: 0.6px;
+$header-3-font-weight: 600;
+
+$header-4-font-family: $font-family-source;
+$header-4-font-size: 26px;
+$header-4-color: $black;
+$header-4-text-align: left;
+$header-4-letter-spacing: 0.52px;
+$header-4-font-weight: 600;
+
+$header-5-font-family: $font-family-source;
+$header-5-font-size: 24px;
+$header-5-color: $black;
+$header-5-text-align: left;
+$header-5-letter-spacing: 0.48px;
+$header-5-font-weight: 600;
+
+$body-font-family: $font-family-source;
+$body-font-size: 20px;
+$body-color: $black;
+$body-text-align: left;
+$body-letter-spacing: 0.4px;
+$body-font-weight: 400;
+
+$body-small-font-family: $font-family-source;
+$body-small-font-size: 18px;
+$body-small-color: $black;
+$body-small-text-align: left;
+$body-small-letter-spacing: 0.36px;
+$body-small-font-weight: 400;
+
+$body-smallest-font-family: $font-family-source;
+$body-smallest-font-size: 16px;
+$body-smallest-color: $black;
+$body-smallest-text-align: left;
+$body-smallest-letter-spacing: 0.32px;
+$body-smallest-font-weight: 400;

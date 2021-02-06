@@ -1,0 +1,10 @@
+@import '../../assets/_colors.scss';
+
+.button {
+  width: 122px;
+  height: 23px;
+  color: $white;
+  background: $blue 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
