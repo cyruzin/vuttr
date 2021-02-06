@@ -1,4 +1,4 @@
-import Tools from './modules/Tools';
+import Tools from './modules/tools';
 import { Typography } from './components';
 
 function App() {
